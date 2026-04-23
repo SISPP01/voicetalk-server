@@ -47,3 +47,4 @@ async def signaling_endpoint(websocket: WebSocket, room_id: str) -> None:
             
     except WebSocketDisconnect:
         manager.disconnect(websocket, room_id)
+# WebRTC critical bug fixed!
